@@ -1,0 +1,32 @@
+machine:
+    timezone:
+        Europe/Berlin
+    xcode:
+        version: "8.0"
+
+test:
+    override:
+        - xcodebuild
+            -workspace sample.xcworkspace
+            -scheme sample.small
+            -destination 'platform=iOS Simulator,OS=10.1,name=iPhone 7'
+            clean test
+            | tee $CIRCLE_ARTIFACTS/test_xcodebuild.log
+            | xcpretty
+                -c
+                -r junit --output $CIRCLE_TEST_REPORTS/junit.xml
+                -r html --output $CIRCLE_TEST_REPORTS/report.html
+                -r json-compilation-database --output $CIRCLE_ARTIFACTS/test_compilation_database.json
+    post:
+        - bundle exec slather
+deployment:
+    staging:
+        branch: development
+        commands:
+            - cd adapters;agvtool -noscm new-marketing-version "$(agvtool what-marketing-version -terse1).${CIRCLE_BUILD_NUM}-dev";agvtool new-version -all $CIRCLE_BUILD_NUM
+            - ./circleci/publish.sh 
+    production:
+        branch: master
+        commands:
+            - if [ -z $IS_BETA ] ; then cd adapters;agvtool -noscm new-marketing-version "$(agvtool what-marketing-version -terse1)";agvtool new-version -all $CIRCLE_BUILD_NUM ; fi
+            - if [ -z $IS_BETA ] ; then ./circleci/publish.sh ; fi

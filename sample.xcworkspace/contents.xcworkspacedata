@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Gemfile">
+   </FileRef>
+   <FileRef
+      location = "group:publish.sh">
+   </FileRef>
+   <FileRef
+      location = "group:circle.yml">
+   </FileRef>
+   <FileRef
       location = "group:sample/sample.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,0 +1,9 @@
+ci_service: circleci
+xcodeproj: sample/sample.xcodeproj
+scheme: sample.small
+workspace: sample.xcworkspace
+ignore:
+    - "dependencies/**"
+    - "circleci/*"
+    - "sample/sample.small/*"
+    - "../*"

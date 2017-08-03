@@ -80,17 +80,33 @@
 			isa = PBXGroup;
 			children = (
 				5A1E482B1F331DC900B7ED53 /* AppDelegate.swift */,
-				5A1E482D1F331DC900B7ED53 /* SmallSampleSwiftViewController.swift */,
-				5A1E48461F3333F900B7ED53 /* SmallSampleObjCViewController.h */,
-				5A1E48471F3333F900B7ED53 /* SmallSampleObjCViewController.m */,
+				5A1E48491F3348D000B7ED53 /* Settings.swift */,
+				5A1E48451F3333F800B7ED53 /* sample.small-Bridging-Header.h */,
+				5A1E48501F33662C00B7ED53 /* Swift */,
+				5A1E484F1F33660600B7ED53 /* Objective - C */,
 				5A1E482F1F331DC900B7ED53 /* Main.storyboard */,
 				5A1E48321F331DC900B7ED53 /* Assets.xcassets */,
 				5A1E48341F331DC900B7ED53 /* LaunchScreen.storyboard */,
 				5A1E48371F331DC900B7ED53 /* Info.plist */,
-				5A1E48451F3333F800B7ED53 /* sample.small-Bridging-Header.h */,
-				5A1E48491F3348D000B7ED53 /* Settings.swift */,
 			);
 			path = sample.small;
+			sourceTree = "<group>";
+		};
+		5A1E484F1F33660600B7ED53 /* Objective - C */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E48461F3333F900B7ED53 /* SmallSampleObjCViewController.h */,
+				5A1E48471F3333F900B7ED53 /* SmallSampleObjCViewController.m */,
+			);
+			path = "Objective - C";
+			sourceTree = "<group>";
+		};
+		5A1E48501F33662C00B7ED53 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E482D1F331DC900B7ED53 /* SmallSampleSwiftViewController.swift */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

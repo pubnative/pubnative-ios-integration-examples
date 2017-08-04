@@ -40,8 +40,10 @@
 {
     self.smallAdContainer.hidden = YES;
     [self.loadingIndicator startAnimating];
-    self.smallLayout = [[PNSmallLayout alloc] init];
-    self.smallLayout.loadDelegate = self;
+    if (self.smallLayout == nil) {
+        self.smallLayout = [[PNSmallLayout alloc] init];
+        self.smallLayout.loadDelegate = self;
+    }
     [self.smallLayout loadWithAppToken:[Settings appToken] placement:[Settings placement]];
 }
 

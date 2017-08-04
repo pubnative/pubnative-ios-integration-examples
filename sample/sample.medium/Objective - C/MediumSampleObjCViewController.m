@@ -1,28 +1,28 @@
 //
-//  SmallSampleObjCViewController.m
+//  MediumSampleObjCViewController.m
 //  sample
 //
-//  Created by Can Soykarafakili on 03.08.17.
+//  Created by Can Soykarafakili on 04.08.17.
 //  Copyright © 2017 Can Soykarafakili. All rights reserved.
 //
 
-#import "SmallSampleObjCViewController.h"
+#import "MediumSampleObjCViewController.h"
 #import <Pubnative/Pubnative.h>
-#import "sample_small-Swift.h"
+#import "sample_medium-Swift.h"
 
-@interface SmallSampleObjCViewController () <PNLayoutLoadDelegate, PNLayoutTrackDelegate>
+@interface MediumSampleObjCViewController () <PNLayoutLoadDelegate, PNLayoutTrackDelegate>
 
-@property (nonatomic, strong) PNSmallLayout *smallLayout;
-@property (weak, nonatomic) IBOutlet UIView *smallAdContainer;
+@property (nonatomic, strong) PNMediumLayout *mediumLayout;
+@property (weak, nonatomic) IBOutlet UIView *mediumAdContainer;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *loadingIndicator;
 
 @end
 
-@implementation SmallSampleObjCViewController
+@implementation MediumSampleObjCViewController
 
 - (void)dealloc
 {
-    self.smallLayout = nil;
+    self.mediumLayout = nil;
 }
 
 - (void)viewDidLoad
@@ -33,16 +33,16 @@
 - (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
-    [self.smallLayout stopTrackingView];
+    [self.mediumLayout stopTrackingView];
 }
 
 - (IBAction)requestButtonTouchUpInside:(id)sender
 {
-    self.smallAdContainer.hidden = YES;
+    self.mediumAdContainer.hidden = YES;
     [self.loadingIndicator startAnimating];
-    self.smallLayout = [[PNSmallLayout alloc] init];
-    self.smallLayout.loadDelegate = self;
-    [self.smallLayout loadWithAppToken:[Settings appToken] placement:[Settings placement]];
+    self.mediumLayout = [[PNMediumLayout alloc] init];
+    self.mediumLayout.loadDelegate = self;
+    [self.mediumLayout loadWithAppToken:[Settings appToken] placement:[Settings placement]];
 }
 
 #pragma mark - Delegates -
@@ -52,14 +52,14 @@
 - (void)layoutDidFinishLoading:(PNLayout *)layout
 {
     NSLog(@"Layout loaded");
-
-    if (self.smallLayout == layout) {
-        self.smallAdContainer.hidden = NO;
+    
+    if (self.mediumLayout == layout) {
+        self.mediumAdContainer.hidden = NO;
         [self.loadingIndicator stopAnimating];
-        self.smallLayout.trackDelegate = self;
-        UIView *layoutView = self.smallLayout.viewController.view;
-        [self.smallAdContainer addSubview:layoutView];
-        [self.smallLayout startTrackingView];
+        self.mediumLayout.trackDelegate = self;
+        UIView *layoutView = self.mediumLayout.viewController.view;
+        [self.mediumAdContainer addSubview:layoutView];
+        [self.mediumLayout startTrackingView];
         
         // You can access layout.viewController and customize the ad appearance with the predefined methods.
     }
@@ -82,5 +82,6 @@
 {
     NSLog(@"Layout click tracked");
 }
+
 
 @end

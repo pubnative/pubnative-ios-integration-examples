@@ -1,18 +1,18 @@
 //
-//  SmallSampleSwiftViewController.swift
-//  sample.small
+//  MediumSampleSwiftViewController.swift
+//  sample
 //
-//  Created by Can Soykarafakili on 03.08.17.
+//  Created by Can Soykarafakili on 04.08.17.
 //  Copyright © 2017 Can Soykarafakili. All rights reserved.
 //
 
 import UIKit
 import Pubnative
 
-class SmallSampleSwiftViewController: UIViewController {
-
-    let smallLayout = PNSmallLayout()
-    @IBOutlet weak var smallAdContainer: UIView!
+class MediumSampleSwiftViewController: UIViewController {
+    
+    let mediumLayout = PNMediumLayout()
+    @IBOutlet weak var mediumAdContainer: UIView!
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad()
@@ -23,30 +23,30 @@ class SmallSampleSwiftViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool)
     {
         super.viewDidDisappear(animated)
-        smallLayout.stopTrackingView()
+        mediumLayout.stopTrackingView()
     }
     
     @IBAction func requestButtonTouchUpInside(_ sender: Any)
     {
-        smallAdContainer.isHidden = true;
+        mediumAdContainer.isHidden = true;
         loadingIndicator.startAnimating()
-        smallLayout.loadDelegate = self
-        smallLayout.load(withAppToken: Settings.appToken(), placement: Settings.placement())
+        mediumLayout.loadDelegate = self
+        mediumLayout.load(withAppToken: Settings.appToken(), placement: Settings.placement())
     }
 }
 
-extension SmallSampleSwiftViewController : PNLayoutLoadDelegate
+extension MediumSampleSwiftViewController : PNLayoutLoadDelegate
 {
     func layoutDidFinishLoading(_ layout: PNLayout!)
     {
         print("Layout loaded")
-        if (smallLayout == layout) {
-            smallAdContainer.isHidden = false;
+        if (mediumLayout == layout) {
+            mediumAdContainer.isHidden = false;
             loadingIndicator.stopAnimating()
             layout.trackDelegate = self
-            let layoutView = smallLayout.viewController.view
-            smallAdContainer.addSubview(layoutView!)
-            smallLayout.startTrackingView()
+            let layoutView = mediumLayout.viewController.view
+            mediumAdContainer.addSubview(layoutView!)
+            mediumLayout.startTrackingView()
             
             // You can access layout.viewController and customize the ad appearance with the predefined methods.
         }
@@ -59,7 +59,7 @@ extension SmallSampleSwiftViewController : PNLayoutLoadDelegate
     }
 }
 
-extension SmallSampleSwiftViewController : PNLayoutTrackDelegate
+extension MediumSampleSwiftViewController : PNLayoutTrackDelegate
 {
     func layoutTrackImpression(_ layout: PNLayout!)
     {
@@ -71,4 +71,3 @@ extension SmallSampleSwiftViewController : PNLayoutTrackDelegate
         print("Layout click tracked")
     }
 }
-

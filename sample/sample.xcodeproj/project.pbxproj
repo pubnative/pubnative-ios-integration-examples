@@ -73,9 +73,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5A10E5921F349B7A005412BA /* sample.large-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample.large-Bridging-Header.h"; sourceTree = "<group>"; };
-		5A10E5931F349B7B005412BA /* LargeSampleObjCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LargeSampleObjCViewController.h; path = "Objective - C/LargeSampleObjCViewController.h"; sourceTree = "<group>"; };
-		5A10E5941F349B7B005412BA /* LargeSampleObjCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LargeSampleObjCViewController.m; path = "Objective - C/LargeSampleObjCViewController.m"; sourceTree = "<group>"; };
 		5A08EC131F34735A000C4451 /* sample.medium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.medium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A08EC151F34735A000C4451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A08EC1A1F34735A000C4451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,6 +84,9 @@
 		5A08EC2F1F34751F000C4451 /* sample.medium-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample.medium-Bridging-Header.h"; sourceTree = "<group>"; };
 		5A08EC301F34751F000C4451 /* MediumSampleObjCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediumSampleObjCViewController.h; path = "Objective - C/MediumSampleObjCViewController.h"; sourceTree = "<group>"; };
 		5A08EC311F34751F000C4451 /* MediumSampleObjCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MediumSampleObjCViewController.m; path = "Objective - C/MediumSampleObjCViewController.m"; sourceTree = "<group>"; };
+		5A10E5921F349B7A005412BA /* sample.large-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample.large-Bridging-Header.h"; sourceTree = "<group>"; };
+		5A10E5931F349B7B005412BA /* LargeSampleObjCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LargeSampleObjCViewController.h; path = "Objective - C/LargeSampleObjCViewController.h"; sourceTree = "<group>"; };
+		5A10E5941F349B7B005412BA /* LargeSampleObjCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LargeSampleObjCViewController.m; path = "Objective - C/LargeSampleObjCViewController.m"; sourceTree = "<group>"; };
 		5A1E48291F331DC900B7ED53 /* sample.small.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.small.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1E482B1F331DC900B7ED53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A1E482D1F331DC900B7ED53 /* SmallSampleSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallSampleSwiftViewController.swift; sourceTree = "<group>"; };
@@ -496,7 +496,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = sample.medium/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.pubnative.sample-medium";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,7 +518,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = sample.medium/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.pubnative.sample-medium";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -639,6 +639,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "sample.small/sample.small-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -659,6 +660,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "sample.small/sample.small-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -715,6 +717,7 @@
 				5A08EC231F34735A000C4451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A1E47FD1F331B9500B7ED53 /* Build configuration list for PBXProject "sample" */ = {
 			isa = XCConfigurationList;

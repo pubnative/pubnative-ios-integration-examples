@@ -42,8 +42,8 @@
     [self.loadingIndicator startAnimating];
     if (self.smallLayout == nil) {
         self.smallLayout = [[PNSmallLayout alloc] init];
-        self.smallLayout.loadDelegate = self;
     }
+    self.smallLayout.loadDelegate = self;
     [self.smallLayout loadWithAppToken:[Settings appToken] placement:[Settings placement]];
 }
 

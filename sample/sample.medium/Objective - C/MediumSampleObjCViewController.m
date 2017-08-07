@@ -42,8 +42,8 @@
     [self.loadingIndicator startAnimating];
     if (self.mediumLayout == nil) {
         self.mediumLayout = [[PNMediumLayout alloc] init];
-        self.mediumLayout.loadDelegate = self;
     }
+    self.mediumLayout.loadDelegate = self;
     [self.mediumLayout loadWithAppToken:[Settings appToken] placement:[Settings placement]];
 }
 

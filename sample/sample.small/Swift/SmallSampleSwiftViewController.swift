@@ -11,7 +11,7 @@ import Pubnative
 
 class SmallSampleSwiftViewController: UIViewController {
 
-    let smallLayout = PNSmallLayout()
+    var smallLayout : PNSmallLayout?
     @IBOutlet weak var smallAdContainer: UIView!
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     
@@ -23,15 +23,18 @@ class SmallSampleSwiftViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool)
     {
         super.viewDidDisappear(animated)
-        smallLayout.stopTrackingView()
+        smallLayout?.stopTrackingView()
     }
     
     @IBAction func requestButtonTouchUpInside(_ sender: Any)
     {
         smallAdContainer.isHidden = true;
         loadingIndicator.startAnimating()
-        smallLayout.loadDelegate = self
-        smallLayout.load(withAppToken: Settings.appToken(), placement: Settings.placement())
+        if(smallLayout == nil) {
+            smallLayout = PNSmallLayout()
+        }
+        smallLayout?.loadDelegate = self
+        smallLayout?.load(withAppToken: Settings.appToken(), placement: Settings.placement())
     }
 }
 
@@ -44,9 +47,9 @@ extension SmallSampleSwiftViewController : PNLayoutLoadDelegate
             smallAdContainer.isHidden = false;
             loadingIndicator.stopAnimating()
             layout.trackDelegate = self
-            let layoutView = smallLayout.viewController.view
+            let layoutView = smallLayout?.viewController.view
             smallAdContainer.addSubview(layoutView!)
-            smallLayout.startTrackingView()
+            smallLayout?.startTrackingView()
             
             // You can access layout.viewController and customize the ad appearance with the predefined methods.
         }

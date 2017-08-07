@@ -11,7 +11,7 @@ import Pubnative
 
 class MediumSampleSwiftViewController: UIViewController {
     
-    let mediumLayout = PNMediumLayout()
+    var mediumLayout : PNMediumLayout?
     @IBOutlet weak var mediumAdContainer: UIView!
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     
@@ -23,15 +23,18 @@ class MediumSampleSwiftViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool)
     {
         super.viewDidDisappear(animated)
-        mediumLayout.stopTrackingView()
+        mediumLayout?.stopTrackingView()
     }
     
     @IBAction func requestButtonTouchUpInside(_ sender: Any)
     {
         mediumAdContainer.isHidden = true;
         loadingIndicator.startAnimating()
-        mediumLayout.loadDelegate = self
-        mediumLayout.load(withAppToken: Settings.appToken(), placement: Settings.placement())
+        if (mediumLayout == nil) {
+            mediumLayout = PNMediumLayout()
+        }
+        mediumLayout?.loadDelegate = self
+        mediumLayout?.load(withAppToken: Settings.appToken(), placement: Settings.placement())
     }
 }
 
@@ -44,9 +47,9 @@ extension MediumSampleSwiftViewController : PNLayoutLoadDelegate
             mediumAdContainer.isHidden = false;
             loadingIndicator.stopAnimating()
             layout.trackDelegate = self
-            let layoutView = mediumLayout.viewController.view
+            let layoutView = mediumLayout?.viewController.view
             mediumAdContainer.addSubview(layoutView!)
-            mediumLayout.startTrackingView()
+            mediumLayout?.startTrackingView()
             
             // You can access layout.viewController and customize the ad appearance with the predefined methods.
         }

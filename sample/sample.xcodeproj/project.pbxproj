@@ -34,6 +34,11 @@
 		5ADEB1F31F3858D80068B16C /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5ADEB1F41F3858E20068B16C /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; };
 		5ADEB1F51F3858E20068B16C /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5ADEB2181F3874A80068B16C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEB2171F3874A80068B16C /* AppDelegate.swift */; };
+		5ADEB21A1F3874A80068B16C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEB2191F3874A80068B16C /* ViewController.swift */; };
+		5ADEB21D1F3874A80068B16C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEB21B1F3874A80068B16C /* Main.storyboard */; };
+		5ADEB21F1F3874A80068B16C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEB21E1F3874A80068B16C /* Assets.xcassets */; };
+		5ADEB2221F3874A80068B16C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEB2201F3874A80068B16C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -107,6 +112,13 @@
 		5A56E54F1F349450003404A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A56E5571F349487003404A3 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pubnative.framework; sourceTree = "<group>"; };
+		5ADEB2151F3874A80068B16C /* sample.native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.native.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ADEB2171F3874A80068B16C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ADEB2191F3874A80068B16C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ADEB21C1F3874A80068B16C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ADEB21E1F3874A80068B16C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ADEB2211F3874A80068B16C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ADEB2231F3874A80068B16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +143,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ADEB1F41F3858E20068B16C /* Pubnative.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADEB2121F3874A80068B16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +196,7 @@
 				5A1E482A1F331DC900B7ED53 /* sample.small */,
 				5A56E5421F349450003404A3 /* sample.large */,
 				5A08EC141F34735A000C4451 /* sample.medium */,
+				5ADEB2161F3874A80068B16C /* sample.native */,
 				5A1E48031F331B9500B7ED53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -187,6 +207,7 @@
 				5A1E48291F331DC900B7ED53 /* sample.small.app */,
 				5A08EC131F34735A000C4451 /* sample.medium.app */,
 				5A56E5411F349450003404A3 /* sample.large.app */,
+				5ADEB2151F3874A80068B16C /* sample.native.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,6 +278,19 @@
 			name = "Objective - C";
 			sourceTree = "<group>";
 		};
+		5ADEB2161F3874A80068B16C /* sample.native */ = {
+			isa = PBXGroup;
+			children = (
+				5ADEB2171F3874A80068B16C /* AppDelegate.swift */,
+				5ADEB2191F3874A80068B16C /* ViewController.swift */,
+				5ADEB21B1F3874A80068B16C /* Main.storyboard */,
+				5ADEB21E1F3874A80068B16C /* Assets.xcassets */,
+				5ADEB2201F3874A80068B16C /* LaunchScreen.storyboard */,
+				5ADEB2231F3874A80068B16C /* Info.plist */,
+			);
+			path = sample.native;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -314,6 +348,23 @@
 			productReference = 5A56E5411F349450003404A3 /* sample.large.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5ADEB2141F3874A80068B16C /* sample.native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADEB2261F3874A80068B16C /* Build configuration list for PBXNativeTarget "sample.native" */;
+			buildPhases = (
+				5ADEB2111F3874A80068B16C /* Sources */,
+				5ADEB2121F3874A80068B16C /* Frameworks */,
+				5ADEB2131F3874A80068B16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sample.native;
+			productName = sample.native;
+			productReference = 5ADEB2151F3874A80068B16C /* sample.native.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -342,6 +393,11 @@
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
+					5ADEB2141F3874A80068B16C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J6V7N93E53;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 5A1E47FD1F331B9500B7ED53 /* Build configuration list for PBXProject "sample" */;
@@ -360,6 +416,7 @@
 				5A1E48281F331DC900B7ED53 /* sample.small */,
 				5A08EC121F34735A000C4451 /* sample.medium */,
 				5A56E5401F349450003404A3 /* sample.large */,
+				5ADEB2141F3874A80068B16C /* sample.native */,
 			);
 		};
 /* End PBXProject section */
@@ -392,6 +449,16 @@
 				5A56E54E1F349450003404A3 /* LaunchScreen.storyboard in Resources */,
 				5A56E54B1F349450003404A3 /* Assets.xcassets in Resources */,
 				5A56E5491F349450003404A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADEB2131F3874A80068B16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADEB2221F3874A80068B16C /* LaunchScreen.storyboard in Resources */,
+				5ADEB21F1F3874A80068B16C /* Assets.xcassets in Resources */,
+				5ADEB21D1F3874A80068B16C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +495,15 @@
 				5A56E5581F349487003404A3 /* Settings.swift in Sources */,
 				5A56E5461F349450003404A3 /* LargeSampleSwiftViewController.swift in Sources */,
 				5A56E5441F349450003404A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADEB2111F3874A80068B16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADEB21A1F3874A80068B16C /* ViewController.swift in Sources */,
+				5ADEB2181F3874A80068B16C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +554,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				5A56E54D1F349450003404A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5ADEB21B1F3874A80068B16C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ADEB21C1F3874A80068B16C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ADEB2201F3874A80068B16C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ADEB2211F3874A80068B16C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -707,6 +799,36 @@
 			};
 			name = Release;
 		};
+		5ADEB2241F3874A80068B16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6V7N93E53;
+				INFOPLIST_FILE = sample.native/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.pubnative.sample-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ADEB2251F3874A80068B16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6V7N93E53;
+				INFOPLIST_FILE = sample.native/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.pubnative.sample-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -745,6 +867,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		5ADEB2261F3874A80068B16C /* Build configuration list for PBXNativeTarget "sample.native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ADEB2241F3874A80068B16C /* Debug */,
+				5ADEB2251F3874A80068B16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

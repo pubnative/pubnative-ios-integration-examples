@@ -11,7 +11,8 @@ import Pubnative
 
 class LargeSampleSwiftViewController: UIViewController {
     
-    let largelayout = PNLargeLayout()
+    var largeLayout : PNLargeLayout?
+
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad()
@@ -22,8 +23,11 @@ class LargeSampleSwiftViewController: UIViewController {
     @IBAction func requestButtonTouchUpInside(_ sender: Any)
     {
         loadingIndicator.startAnimating()
-        largelayout.loadDelegate = self
-        largelayout.load(withAppToken: Settings.appToken(), placement: Settings.placement())
+        if(largeLayout == nil) {
+            largeLayout = PNLargeLayout()
+        }
+        largeLayout?.loadDelegate = self
+        largeLayout?.load(withAppToken: Settings.appToken(), placement: Settings.placement())
     }
 }
 
@@ -32,11 +36,11 @@ extension LargeSampleSwiftViewController : PNLayoutLoadDelegate
     func layoutDidFinishLoading(_ layout: PNLayout!)
     {
         print("Layout loaded")
-        if (largelayout == layout) {
+        if (largeLayout == layout) {
             loadingIndicator.stopAnimating()
-            largelayout.trackDelegate = self
-            largelayout.viewDelegate = self
-            largelayout.show()
+            largeLayout?.trackDelegate = self
+            largeLayout?.viewDelegate = self
+            largeLayout?.show()
         }
     }
     

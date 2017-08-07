@@ -40,7 +40,9 @@
 {
     self.smallAdContainer.hidden = YES;
     [self.loadingIndicator startAnimating];
-    self.smallLayout = [[PNSmallLayout alloc] init];
+    if (self.smallLayout == nil) {
+        self.smallLayout = [[PNSmallLayout alloc] init];
+    }
     self.smallLayout.loadDelegate = self;
     [self.smallLayout loadWithAppToken:[Settings appToken] placement:[Settings placement]];
 }
@@ -51,7 +53,7 @@
 
 - (void)layoutDidFinishLoading:(PNLayout *)layout
 {
-    NSLog(@"Layout did load");
+    NSLog(@"Layout loaded");
 
     if (self.smallLayout == layout) {
         self.smallAdContainer.hidden = NO;
@@ -75,12 +77,12 @@
 
 - (void)layoutTrackImpression:(PNLayout *)layout
 {
-    NSLog(@"Layout track impression");
+    NSLog(@"Layout impression tracked");
 }
 
 - (void)layoutTrackClick:(PNLayout *)layout
 {
-    NSLog(@"Layout track click");
+    NSLog(@"Layout click tracked");
 }
 
 @end

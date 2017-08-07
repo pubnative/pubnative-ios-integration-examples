@@ -32,7 +32,9 @@
 - (IBAction)requestButtonTouchUpInside:(id)sender
 {
     [self.loadingIndicator startAnimating];
-    self.largeLayout = [[PNLargeLayout alloc] init];
+    if (self.largeLayout == nil) {
+        self.largeLayout = [[PNLargeLayout alloc] init];
+    }
     self.largeLayout.loadDelegate = self;
     [self.largeLayout loadWithAppToken:[Settings appToken] placement:[Settings placement]];
 }

@@ -28,6 +28,19 @@
 		5A56E54B1F349450003404A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A56E54A1F349450003404A3 /* Assets.xcassets */; };
 		5A56E54E1F349450003404A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A56E54C1F349450003404A3 /* LaunchScreen.storyboard */; };
 		5A56E5581F349487003404A3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A56E5571F349487003404A3 /* Settings.swift */; };
+		5A5D5D101F38A4A80070809B /* NativeSampleObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5D5D0F1F38A4A80070809B /* NativeSampleObjCViewController.m */; };
+		5A5D5D261F38B1440070809B /* PNLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D231F38B1440070809B /* PNLogo.png */; };
+		5A5D5D271F38B1440070809B /* PNLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D231F38B1440070809B /* PNLogo.png */; };
+		5A5D5D281F38B1440070809B /* PNLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D231F38B1440070809B /* PNLogo.png */; };
+		5A5D5D291F38B1440070809B /* PNLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D231F38B1440070809B /* PNLogo.png */; };
+		5A5D5D2A1F38B1440070809B /* PNLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D241F38B1440070809B /* PNLogo@2x.png */; };
+		5A5D5D2B1F38B1440070809B /* PNLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D241F38B1440070809B /* PNLogo@2x.png */; };
+		5A5D5D2C1F38B1440070809B /* PNLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D241F38B1440070809B /* PNLogo@2x.png */; };
+		5A5D5D2D1F38B1440070809B /* PNLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D241F38B1440070809B /* PNLogo@2x.png */; };
+		5A5D5D2E1F38B1440070809B /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
+		5A5D5D2F1F38B1440070809B /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
+		5A5D5D301F38B1440070809B /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
+		5A5D5D311F38B1440070809B /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
 		5ADEB1F01F3858CF0068B16C /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; };
 		5ADEB1F11F3858CF0068B16C /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5ADEB1F21F3858D80068B16C /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; };
@@ -126,6 +139,12 @@
 		5A56E54D1F349450003404A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A56E54F1F349450003404A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A56E5571F349487003404A3 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		5A5D5D0E1F38A4A80070809B /* NativeSampleObjCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeSampleObjCViewController.h; path = "Objective - C/NativeSampleObjCViewController.h"; sourceTree = "<group>"; };
+		5A5D5D0F1F38A4A80070809B /* NativeSampleObjCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NativeSampleObjCViewController.m; path = "Objective - C/NativeSampleObjCViewController.m"; sourceTree = "<group>"; };
+		5A5D5D131F38A6350070809B /* sample.native-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sample.native-Bridging-Header.h"; sourceTree = "<group>"; };
+		5A5D5D231F38B1440070809B /* PNLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PNLogo.png; sourceTree = "<group>"; };
+		5A5D5D241F38B1440070809B /* PNLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNLogo@2x.png"; sourceTree = "<group>"; };
+		5A5D5D251F38B1440070809B /* PNLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNLogo@3x.png"; sourceTree = "<group>"; };
 		5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pubnative.framework; sourceTree = "<group>"; };
 		5ADEB2151F3874A80068B16C /* sample.native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.native.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADEB2171F3874A80068B16C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -300,9 +319,10 @@
 		5ADEB2161F3874A80068B16C /* sample.native */ = {
 			isa = PBXGroup;
 			children = (
-				5ADEB2321F3890920068B16C /* Swift */,
 				5ADEB2171F3874A80068B16C /* AppDelegate.swift */,
 				5ADEB2271F3875230068B16C /* Settings.swift */,
+				5ADEB2321F3890920068B16C /* Swift */,
+				5ADEB2331F38A36E0068B16C /* Objective - C */,
 				5ADEB21B1F3874A80068B16C /* Main.storyboard */,
 				5ADEB21E1F3874A80068B16C /* Assets.xcassets */,
 				5ADEB2201F3874A80068B16C /* LaunchScreen.storyboard */,
@@ -323,6 +343,9 @@
 		5ADEB2311F3888BB0068B16C /* dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				5A5D5D231F38B1440070809B /* PNLogo.png */,
+				5A5D5D241F38B1440070809B /* PNLogo@2x.png */,
+				5A5D5D251F38B1440070809B /* PNLogo@3x.png */,
 				5ADEB22C1F3888970068B16C /* HCSRatingView */,
 				5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */,
 			);
@@ -335,6 +358,16 @@
 				5ADEB2191F3874A80068B16C /* NativeSampleSwiftViewController.swift */,
 			);
 			path = Swift;
+			sourceTree = "<group>";
+		};
+		5ADEB2331F38A36E0068B16C /* Objective - C */ = {
+			isa = PBXGroup;
+			children = (
+				5A5D5D0E1F38A4A80070809B /* NativeSampleObjCViewController.h */,
+				5A5D5D0F1F38A4A80070809B /* NativeSampleObjCViewController.m */,
+				5A5D5D131F38A6350070809B /* sample.native-Bridging-Header.h */,
+			);
+			name = "Objective - C";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,6 +506,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5D5D2F1F38B1440070809B /* PNLogo@3x.png in Resources */,
+				5A5D5D2B1F38B1440070809B /* PNLogo@2x.png in Resources */,
+				5A5D5D271F38B1440070809B /* PNLogo.png in Resources */,
 				5A08EC201F34735A000C4451 /* LaunchScreen.storyboard in Resources */,
 				5A08EC1D1F34735A000C4451 /* Assets.xcassets in Resources */,
 				5A08EC1B1F34735A000C4451 /* Main.storyboard in Resources */,
@@ -483,6 +519,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5D5D2E1F38B1440070809B /* PNLogo@3x.png in Resources */,
+				5A5D5D2A1F38B1440070809B /* PNLogo@2x.png in Resources */,
+				5A5D5D261F38B1440070809B /* PNLogo.png in Resources */,
 				5A1E48361F331DC900B7ED53 /* LaunchScreen.storyboard in Resources */,
 				5A1E48331F331DC900B7ED53 /* Assets.xcassets in Resources */,
 				5A1E48311F331DC900B7ED53 /* Main.storyboard in Resources */,
@@ -493,6 +532,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5D5D301F38B1440070809B /* PNLogo@3x.png in Resources */,
+				5A5D5D2C1F38B1440070809B /* PNLogo@2x.png in Resources */,
+				5A5D5D281F38B1440070809B /* PNLogo.png in Resources */,
 				5A56E54E1F349450003404A3 /* LaunchScreen.storyboard in Resources */,
 				5A56E54B1F349450003404A3 /* Assets.xcassets in Resources */,
 				5A56E5491F349450003404A3 /* Main.storyboard in Resources */,
@@ -503,6 +545,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5D5D311F38B1440070809B /* PNLogo@3x.png in Resources */,
+				5A5D5D2D1F38B1440070809B /* PNLogo@2x.png in Resources */,
+				5A5D5D291F38B1440070809B /* PNLogo.png in Resources */,
 				5ADEB2221F3874A80068B16C /* LaunchScreen.storyboard in Resources */,
 				5ADEB21F1F3874A80068B16C /* Assets.xcassets in Resources */,
 				5ADEB21D1F3874A80068B16C /* Main.storyboard in Resources */,
@@ -552,6 +597,7 @@
 				5ADEB2281F3875230068B16C /* Settings.swift in Sources */,
 				5ADEB22F1F3888970068B16C /* PNStarRatingView.m in Sources */,
 				5ADEB21A1F3874A80068B16C /* NativeSampleSwiftViewController.swift in Sources */,
+				5A5D5D101F38A4A80070809B /* NativeSampleObjCViewController.m in Sources */,
 				5ADEB2181F3874A80068B16C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -862,6 +908,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.pubnative.sample-native";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sample.native/sample.native-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -881,6 +928,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.pubnative.sample-native";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sample.native/sample.native-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -932,6 +980,7 @@
 				5ADEB2251F3874A80068B16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

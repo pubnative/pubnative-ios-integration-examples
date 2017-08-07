@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PNLogo" translatesAutoresizingMaskIntoConstraints="NO" id="JN8-oh-LGB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PNLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="JN8-oh-LGB">
                                 <rect key="frame" x="0.0" y="80" width="375" height="101"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="101" id="mt5-Zh-krS"/>
@@ -257,7 +257,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Blt-pT-g6r" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="oaE-zA-WWH">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oaE-zA-WWH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.44761112330000002" green="0.097065538169999993" blue="0.48637124900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -273,6 +273,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="PNLogo" width="400" height="132"/>
+        <image name="PNLogo.png" width="400" height="132"/>
     </resources>
 </document>

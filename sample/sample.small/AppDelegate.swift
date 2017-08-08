@@ -8,6 +8,12 @@
 
 import UIKit
 
+// For Swift
+import Pubnative
+
+// For Objective-C
+// #import <Pubnative/Pubnative.h>
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +22,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // For Swift
+        Pubnative.setTestMode(true)
+        Pubnative.initWithAppToken(Settings.appToken())
+        
+        // For Objective-C
+        // [Pubnative setTestMode:YES];
+        // [Pubnative initWithAppToken:@"<YOUR_APP_TOKEN_HERE>"];
+        
         return true
     }
 

@@ -43,8 +43,7 @@
     if (self.smallLayout == nil) {
         self.smallLayout = [[PNSmallLayout alloc] init];
     }
-    self.smallLayout.loadDelegate = self;
-    [self.smallLayout loadWithAppToken:[Settings appToken] placement:[Settings placement]];
+    [self.smallLayout loadWithAppToken:[Settings appToken] placement:[Settings placement] delegate:self];
 }
 
 #pragma mark - Delegates -

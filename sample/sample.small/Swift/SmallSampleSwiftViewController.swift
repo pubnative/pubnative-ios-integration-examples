@@ -33,8 +33,7 @@ class SmallSampleSwiftViewController: UIViewController {
         if(smallLayout == nil) {
             smallLayout = PNSmallLayout()
         }
-        smallLayout?.loadDelegate = self
-        smallLayout?.load(withAppToken: Settings.appToken(), placement: Settings.placement())
+        smallLayout?.load(withAppToken: Settings.appToken(), placement: Settings.placement(), delegate: self)
     }
 }
 

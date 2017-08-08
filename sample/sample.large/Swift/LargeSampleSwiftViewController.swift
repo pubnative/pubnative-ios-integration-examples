@@ -26,8 +26,7 @@ class LargeSampleSwiftViewController: UIViewController {
         if(largeLayout == nil) {
             largeLayout = PNLargeLayout()
         }
-        largeLayout?.loadDelegate = self
-        largeLayout?.load(withAppToken: Settings.appToken(), placement: Settings.placement())
+        largeLayout?.load(withAppToken: Settings.appToken(), placement: Settings.placement(), delegate: self)
     }
 }
 

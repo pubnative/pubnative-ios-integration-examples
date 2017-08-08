@@ -33,8 +33,7 @@ class MediumSampleSwiftViewController: UIViewController {
         if (mediumLayout == nil) {
             mediumLayout = PNMediumLayout()
         }
-        mediumLayout?.loadDelegate = self
-        mediumLayout?.load(withAppToken: Settings.appToken(), placement: Settings.placement())
+        mediumLayout?.load(withAppToken: Settings.appToken(), placement: Settings.placement(), delegate: self)
     }
 }
 

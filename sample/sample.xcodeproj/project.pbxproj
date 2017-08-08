@@ -41,20 +41,20 @@
 		5A5D5D2F1F38B1440070809B /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
 		5A5D5D301F38B1440070809B /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
 		5A5D5D311F38B1440070809B /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
-		5ADEB1F01F3858CF0068B16C /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; };
-		5ADEB1F11F3858CF0068B16C /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5ADEB1F21F3858D80068B16C /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; };
-		5ADEB1F31F3858D80068B16C /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5ADEB1F41F3858E20068B16C /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; };
-		5ADEB1F51F3858E20068B16C /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5AA4C5571F39CBFF00C827A5 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; };
+		5AA4C5581F39CBFF00C827A5 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5AA4C5591F39CC0600C827A5 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; };
+		5AA4C55A1F39CC0600C827A5 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5AA4C55B1F39CC0E00C827A5 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; };
+		5AA4C55C1F39CC0E00C827A5 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5AA4C55D1F39CC1700C827A5 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; };
+		5AA4C55E1F39CC1700C827A5 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5ADEB2181F3874A80068B16C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEB2171F3874A80068B16C /* AppDelegate.swift */; };
 		5ADEB21A1F3874A80068B16C /* NativeSampleSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEB2191F3874A80068B16C /* NativeSampleSwiftViewController.swift */; };
 		5ADEB21D1F3874A80068B16C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEB21B1F3874A80068B16C /* Main.storyboard */; };
 		5ADEB21F1F3874A80068B16C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEB21E1F3874A80068B16C /* Assets.xcassets */; };
 		5ADEB2221F3874A80068B16C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEB2201F3874A80068B16C /* LaunchScreen.storyboard */; };
 		5ADEB2281F3875230068B16C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEB2271F3875230068B16C /* Settings.swift */; };
-		5ADEB2291F387EDE0068B16C /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; };
-		5ADEB22A1F387EDE0068B16C /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5ADEB22F1F3888970068B16C /* PNStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEB22E1F3888970068B16C /* PNStarRatingView.m */; };
 /* End PBXBuildFile section */
 
@@ -65,7 +65,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5ADEB1F31F3858D80068B16C /* Pubnative.framework in Embed Frameworks */,
+				5AA4C55A1F39CC0600C827A5 /* Pubnative.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +76,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5ADEB1F11F3858CF0068B16C /* Pubnative.framework in Embed Frameworks */,
+				5AA4C5581F39CBFF00C827A5 /* Pubnative.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,7 +87,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5ADEB1F51F3858E20068B16C /* Pubnative.framework in Embed Frameworks */,
+				5AA4C55C1F39CC0E00C827A5 /* Pubnative.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,7 +98,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5ADEB22A1F387EDE0068B16C /* Pubnative.framework in Embed Frameworks */,
+				5AA4C55E1F39CC1700C827A5 /* Pubnative.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,7 +145,7 @@
 		5A5D5D231F38B1440070809B /* PNLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PNLogo.png; sourceTree = "<group>"; };
 		5A5D5D241F38B1440070809B /* PNLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNLogo@2x.png"; sourceTree = "<group>"; };
 		5A5D5D251F38B1440070809B /* PNLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNLogo@3x.png"; sourceTree = "<group>"; };
-		5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pubnative.framework; sourceTree = "<group>"; };
+		5AA4C5521F39CBED00C827A5 /* Pubnative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pubnative.framework; sourceTree = "<group>"; };
 		5ADEB2151F3874A80068B16C /* sample.native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.native.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADEB2171F3874A80068B16C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ADEB2191F3874A80068B16C /* NativeSampleSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeSampleSwiftViewController.swift; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ADEB1F21F3858D80068B16C /* Pubnative.framework in Frameworks */,
+				5AA4C5591F39CC0600C827A5 /* Pubnative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ADEB1F01F3858CF0068B16C /* Pubnative.framework in Frameworks */,
+				5AA4C5571F39CBFF00C827A5 /* Pubnative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ADEB1F41F3858E20068B16C /* Pubnative.framework in Frameworks */,
+				5AA4C55B1F39CC0E00C827A5 /* Pubnative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ADEB2291F387EDE0068B16C /* Pubnative.framework in Frameworks */,
+				5AA4C55D1F39CC1700C827A5 /* Pubnative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,8 +346,8 @@
 				5A5D5D231F38B1440070809B /* PNLogo.png */,
 				5A5D5D241F38B1440070809B /* PNLogo@2x.png */,
 				5A5D5D251F38B1440070809B /* PNLogo@3x.png */,
+				5AA4C5521F39CBED00C827A5 /* Pubnative.framework */,
 				5ADEB22C1F3888970068B16C /* HCSRatingView */,
-				5ADEB1EC1F3858BE0068B16C /* Pubnative.framework */,
 			);
 			name = dependencies;
 			sourceTree = "<group>";

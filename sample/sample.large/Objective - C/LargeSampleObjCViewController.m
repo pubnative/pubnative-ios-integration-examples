@@ -35,8 +35,7 @@
     if (self.largeLayout == nil) {
         self.largeLayout = [[PNLargeLayout alloc] init];
     }
-    self.largeLayout.loadDelegate = self;
-    [self.largeLayout loadWithAppToken:[Settings appToken] placement:[Settings placement]];
+    [self.largeLayout loadWithAppToken:[Settings appToken] placement:[Settings placement] delegate:self];
 }
 
 #pragma mark - Delegates -

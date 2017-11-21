@@ -26,8 +26,6 @@
 		5A4AE2181FC45C3900CEFEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4AE2161FC45C3900CEFEE2 /* Main.storyboard */; };
 		5A4AE21A1FC45C3900CEFEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4AE2191FC45C3900CEFEE2 /* Assets.xcassets */; };
 		5A4AE21D1FC45C3900CEFEE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4AE21B1FC45C3900CEFEE2 /* LaunchScreen.storyboard */; };
-		5A4AE2221FC45C4A00CEFEE2 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; };
-		5A4AE2231FC45C4A00CEFEE2 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5A4AE2251FC45C8E00CEFEE2 /* PNLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D231F38B1440070809B /* PNLogo.png */; };
 		5A4AE2261FC45C8E00CEFEE2 /* PNLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D241F38B1440070809B /* PNLogo@2x.png */; };
 		5A4AE2271FC45C8E00CEFEE2 /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
@@ -41,11 +39,21 @@
 		5A4AE2511FC46BC800CEFEE2 /* PNLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D231F38B1440070809B /* PNLogo.png */; };
 		5A4AE2521FC46BC800CEFEE2 /* PNLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D241F38B1440070809B /* PNLogo@2x.png */; };
 		5A4AE2531FC46BC800CEFEE2 /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
-		5A4AE2541FC46BD800CEFEE2 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; };
-		5A4AE2551FC46BD800CEFEE2 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5A4AE2581FC4718D00CEFEE2 /* RefreshingSampleSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4AE2571FC4718D00CEFEE2 /* RefreshingSampleSwiftViewController.swift */; };
 		5A4AE25B1FC472EE00CEFEE2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4AE25A1FC472EE00CEFEE2 /* Settings.swift */; };
 		5A4AE25F1FC47BF300CEFEE2 /* RefreshingSampleObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4AE25E1FC47BF300CEFEE2 /* RefreshingSampleObjCViewController.m */; };
+		5A4AE2621FC4851700CEFEE2 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; };
+		5A4AE2631FC4851700CEFEE2 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5A4AE2641FC4852400CEFEE2 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; };
+		5A4AE2651FC4852400CEFEE2 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5A4AE2661FC4852C00CEFEE2 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; };
+		5A4AE2671FC4852C00CEFEE2 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5A4AE2681FC4854500CEFEE2 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; };
+		5A4AE2691FC4854500CEFEE2 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5A4AE26A1FC4855D00CEFEE2 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; };
+		5A4AE26B1FC4855D00CEFEE2 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5A4AE26C1FC4857100CEFEE2 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; };
+		5A4AE26D1FC4857100CEFEE2 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5A56E5441F349450003404A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A56E5431F349450003404A3 /* AppDelegate.swift */; };
 		5A56E5461F349450003404A3 /* LargeSampleSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A56E5451F349450003404A3 /* LargeSampleSwiftViewController.swift */; };
 		5A56E5491F349450003404A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A56E5471F349450003404A3 /* Main.storyboard */; };
@@ -65,14 +73,6 @@
 		5A5D5D2F1F38B1440070809B /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
 		5A5D5D301F38B1440070809B /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
 		5A5D5D311F38B1440070809B /* PNLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5D5D251F38B1440070809B /* PNLogo@3x.png */; };
-		5AA4C5571F39CBFF00C827A5 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; };
-		5AA4C5581F39CBFF00C827A5 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5AA4C5591F39CC0600C827A5 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; };
-		5AA4C55A1F39CC0600C827A5 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5AA4C55B1F39CC0E00C827A5 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; };
-		5AA4C55C1F39CC0E00C827A5 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5AA4C55D1F39CC1700C827A5 /* Pubnative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; };
-		5AA4C55E1F39CC1700C827A5 /* Pubnative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4C5521F39CBED00C827A5 /* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5ADEB2181F3874A80068B16C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEB2171F3874A80068B16C /* AppDelegate.swift */; };
 		5ADEB21A1F3874A80068B16C /* NativeSampleSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEB2191F3874A80068B16C /* NativeSampleSwiftViewController.swift */; };
 		5ADEB21D1F3874A80068B16C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEB21B1F3874A80068B16C /* Main.storyboard */; };
@@ -89,7 +89,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5AA4C55A1F39CC0600C827A5 /* Pubnative.framework in Embed Frameworks */,
+				5A4AE26B1FC4855D00CEFEE2 /* Pubnative.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,7 +100,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5AA4C5581F39CBFF00C827A5 /* Pubnative.framework in Embed Frameworks */,
+				5A4AE26D1FC4857100CEFEE2 /* Pubnative.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,7 +111,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5A4AE2231FC45C4A00CEFEE2 /* Pubnative.framework in Embed Frameworks */,
+				5A4AE2651FC4852400CEFEE2 /* Pubnative.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,7 +122,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5A4AE2551FC46BD800CEFEE2 /* Pubnative.framework in Embed Frameworks */,
+				5A4AE2631FC4851700CEFEE2 /* Pubnative.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,7 +133,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5AA4C55C1F39CC0E00C827A5 /* Pubnative.framework in Embed Frameworks */,
+				5A4AE2691FC4854500CEFEE2 /* Pubnative.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +144,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5AA4C55E1F39CC1700C827A5 /* Pubnative.framework in Embed Frameworks */,
+				5A4AE2671FC4852C00CEFEE2 /* Pubnative.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +199,7 @@
 		5A4AE25C1FC47BF300CEFEE2 /* sample.refreshing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample.refreshing-Bridging-Header.h"; sourceTree = "<group>"; };
 		5A4AE25D1FC47BF300CEFEE2 /* RefreshingSampleObjCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshingSampleObjCViewController.h; sourceTree = "<group>"; };
 		5A4AE25E1FC47BF300CEFEE2 /* RefreshingSampleObjCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshingSampleObjCViewController.m; sourceTree = "<group>"; };
+		5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pubnative.framework; sourceTree = "<group>"; };
 		5A56E5411F349450003404A3 /* sample.large.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.large.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A56E5431F349450003404A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A56E5451F349450003404A3 /* LargeSampleSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeSampleSwiftViewController.swift; sourceTree = "<group>"; };
@@ -213,7 +214,6 @@
 		5A5D5D231F38B1440070809B /* PNLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PNLogo.png; sourceTree = "<group>"; };
 		5A5D5D241F38B1440070809B /* PNLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNLogo@2x.png"; sourceTree = "<group>"; };
 		5A5D5D251F38B1440070809B /* PNLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNLogo@3x.png"; sourceTree = "<group>"; };
-		5AA4C5521F39CBED00C827A5 /* Pubnative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pubnative.framework; sourceTree = "<group>"; };
 		5ADEB2151F3874A80068B16C /* sample.native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.native.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADEB2171F3874A80068B16C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ADEB2191F3874A80068B16C /* NativeSampleSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeSampleSwiftViewController.swift; sourceTree = "<group>"; };
@@ -231,7 +231,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA4C5591F39CC0600C827A5 /* Pubnative.framework in Frameworks */,
+				5A4AE26A1FC4855D00CEFEE2 /* Pubnative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +239,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA4C5571F39CBFF00C827A5 /* Pubnative.framework in Frameworks */,
+				5A4AE26C1FC4857100CEFEE2 /* Pubnative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +247,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A4AE2221FC45C4A00CEFEE2 /* Pubnative.framework in Frameworks */,
+				5A4AE2641FC4852400CEFEE2 /* Pubnative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +255,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A4AE2541FC46BD800CEFEE2 /* Pubnative.framework in Frameworks */,
+				5A4AE2621FC4851700CEFEE2 /* Pubnative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +263,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA4C55B1F39CC0E00C827A5 /* Pubnative.framework in Frameworks */,
+				5A4AE2681FC4854500CEFEE2 /* Pubnative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +271,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA4C55D1F39CC1700C827A5 /* Pubnative.framework in Frameworks */,
+				5A4AE2661FC4852C00CEFEE2 /* Pubnative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,10 +497,10 @@
 		5ADEB2311F3888BB0068B16C /* dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				5A4AE2611FC4850900CEFEE2 /* Pubnative.framework */,
 				5A5D5D231F38B1440070809B /* PNLogo.png */,
 				5A5D5D241F38B1440070809B /* PNLogo@2x.png */,
 				5A5D5D251F38B1440070809B /* PNLogo@3x.png */,
-				5AA4C5521F39CBED00C827A5 /* Pubnative.framework */,
 				5ADEB22C1F3888970068B16C /* HCSRatingView */,
 			);
 			name = dependencies;

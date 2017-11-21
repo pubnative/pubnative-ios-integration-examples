@@ -1,16 +1,16 @@
 //
-//  MediumSampleObjCViewController.m
-//  sample
+//  TargetingSampleObjCViewController.m
+//  sample.targeting
 //
-//  Created by Can Soykarafakili on 04.08.17.
+//  Created by Can Soykarafakili on 21.11.17.
 //  Copyright © 2017 Can Soykarafakili. All rights reserved.
 //
 
-#import "MediumSampleObjCViewController.h"
+#import "TargetingSampleObjCViewController.h"
 #import <Pubnative/Pubnative.h>
-#import "sample_medium-Swift.h"
+#import "sample_targeting-Swift.h"
 
-@interface MediumSampleObjCViewController () <PNLayoutLoadDelegate, PNLayoutTrackDelegate>
+@interface TargetingSampleObjCViewController () <PNLayoutLoadDelegate, PNLayoutTrackDelegate>
 
 @property (nonatomic, strong) PNMediumLayout *mediumLayout;
 @property (weak, nonatomic) IBOutlet UIView *mediumAdContainer;
@@ -18,7 +18,7 @@
 
 @end
 
-@implementation MediumSampleObjCViewController
+@implementation TargetingSampleObjCViewController
 
 - (void)dealloc
 {
@@ -38,6 +38,11 @@
 
 - (IBAction)requestButtonTouchUpInside:(id)sender
 {
+    PNAdTargetingModel *targeting = [[PNAdTargetingModel alloc] init];
+    targeting.age = [NSNumber numberWithInt:25];
+    targeting.gender = @"m";
+    [Pubnative setTargeting:targeting];
+    
     self.mediumAdContainer.hidden = YES;
     [self.loadingIndicator startAnimating];
     if (self.mediumLayout == nil) {

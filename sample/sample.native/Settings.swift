@@ -10,12 +10,12 @@ import Foundation
 
 @objc public class Settings: NSObject
 {
-    public class func appToken() -> String
+    @objc public class func appToken() -> String
     {
         return "e3886645aabbf0d5c06f841a3e6d77fcc8f9de4469d538ab8a96cb507d0f2660"
     }
     
-    public class func placement() -> String
+    @objc public class func placement() -> String
     {
         return "pubnative_only"
     }

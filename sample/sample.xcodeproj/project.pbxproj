@@ -409,12 +409,12 @@
 			children = (
 				5A4AE2411FC46BBD00CEFEE2 /* AppDelegate.swift */,
 				5A4AE25A1FC472EE00CEFEE2 /* Settings.swift */,
+				5A4AE2591FC4719100CEFEE2 /* Swift */,
+				5A4AE2601FC47BFF00CEFEE2 /* Objective - C */,
 				5A4AE2451FC46BBD00CEFEE2 /* Main.storyboard */,
 				5A4AE2481FC46BBD00CEFEE2 /* Assets.xcassets */,
 				5A4AE24A1FC46BBD00CEFEE2 /* LaunchScreen.storyboard */,
 				5A4AE24D1FC46BBD00CEFEE2 /* Info.plist */,
-				5A4AE2591FC4719100CEFEE2 /* Swift */,
-				5A4AE2601FC47BFF00CEFEE2 /* Objective - C */,
 				5A4AE25C1FC47BF300CEFEE2 /* sample.refreshing-Bridging-Header.h */,
 			);
 			path = sample.refreshing;

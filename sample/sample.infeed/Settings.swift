@@ -27,7 +27,7 @@ import Foundation
     
     @objc public class func initialDataSource() -> Array<Any>
     {
-        var dataArray : [Any] = ["Element 0","Element 1","Element 0","Element 2","Element 3","Element 4","Element 5","Element 6","Element 7","Element 8"]
+        let dataArray : [Any] = ["Element 0","Element 1","Element 0","Element 2","Element 3","Element 4","Element 5","Element 6","Element 7","Element 8"]
         return dataArray
     }
 }

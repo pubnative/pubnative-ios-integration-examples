@@ -15,6 +15,8 @@
 		5A08EC2E1F347481000C4451 /* MediumSampleSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08EC2D1F347481000C4451 /* MediumSampleSwiftViewController.swift */; };
 		5A08EC321F34751F000C4451 /* MediumSampleObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08EC311F34751F000C4451 /* MediumSampleObjCViewController.m */; };
 		5A10E5951F349B7B005412BA /* LargeSampleObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A10E5941F349B7B005412BA /* LargeSampleObjCViewController.m */; };
+		5A1CF6F22006339C00573D83 /* SmallLayoutObjCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF6F12006339C00573D83 /* SmallLayoutObjCCell.m */; };
+		5A1CF6F5200633C800573D83 /* MediumLayoutObjCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF6F4200633C800573D83 /* MediumLayoutObjCCell.m */; };
 		5A1E482C1F331DC900B7ED53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E482B1F331DC900B7ED53 /* AppDelegate.swift */; };
 		5A1E482E1F331DC900B7ED53 /* SmallSampleSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E482D1F331DC900B7ED53 /* SmallSampleSwiftViewController.swift */; };
 		5A1E48311F331DC900B7ED53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1E482F1F331DC900B7ED53 /* Main.storyboard */; };
@@ -191,6 +193,10 @@
 		5A10E5921F349B7A005412BA /* sample.large-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample.large-Bridging-Header.h"; sourceTree = "<group>"; };
 		5A10E5931F349B7B005412BA /* LargeSampleObjCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LargeSampleObjCViewController.h; path = "Objective - C/LargeSampleObjCViewController.h"; sourceTree = "<group>"; };
 		5A10E5941F349B7B005412BA /* LargeSampleObjCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LargeSampleObjCViewController.m; path = "Objective - C/LargeSampleObjCViewController.m"; sourceTree = "<group>"; };
+		5A1CF6F02006339C00573D83 /* SmallLayoutObjCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallLayoutObjCCell.h; sourceTree = "<group>"; };
+		5A1CF6F12006339C00573D83 /* SmallLayoutObjCCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallLayoutObjCCell.m; sourceTree = "<group>"; };
+		5A1CF6F3200633C800573D83 /* MediumLayoutObjCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediumLayoutObjCCell.h; sourceTree = "<group>"; };
+		5A1CF6F4200633C800573D83 /* MediumLayoutObjCCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediumLayoutObjCCell.m; sourceTree = "<group>"; };
 		5A1E48291F331DC900B7ED53 /* sample.small.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.small.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1E482B1F331DC900B7ED53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A1E482D1F331DC900B7ED53 /* SmallSampleSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallSampleSwiftViewController.swift; sourceTree = "<group>"; };
@@ -603,6 +609,10 @@
 			children = (
 				5AE7BD8F2004DD7500D96EAB /* InFeedSampleObjCViewController.h */,
 				5AE7BD902004DD7500D96EAB /* InFeedSampleObjCViewController.m */,
+				5A1CF6F02006339C00573D83 /* SmallLayoutObjCCell.h */,
+				5A1CF6F12006339C00573D83 /* SmallLayoutObjCCell.m */,
+				5A1CF6F3200633C800573D83 /* MediumLayoutObjCCell.h */,
+				5A1CF6F4200633C800573D83 /* MediumLayoutObjCCell.m */,
 			);
 			path = "Objective - C";
 			sourceTree = "<group>";
@@ -981,10 +991,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE7BD8B2004DA3E00D96EAB /* Settings.swift in Sources */,
+				5A1CF6F22006339C00573D83 /* SmallLayoutObjCCell.m in Sources */,
 				5AE7BDA5200527B700D96EAB /* SmallLayoutSwiftCell.swift in Sources */,
 				5AE7BD8D2004DD2400D96EAB /* InFeedSampleSwiftViewController.swift in Sources */,
 				5AE7BD912004DD7500D96EAB /* InFeedSampleObjCViewController.m in Sources */,
 				5AE7BDA720052A0D00D96EAB /* MediumLayoutSwiftCell.swift in Sources */,
+				5A1CF6F5200633C800573D83 /* MediumLayoutObjCCell.m in Sources */,
 				5AE7BD7B2004D99900D96EAB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

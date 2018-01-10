@@ -27,6 +27,9 @@ class InFeedSampleSwiftViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool)
     {
         super.viewDidDisappear(animated)
+        // Stop tracking of the layout that you have (Either Small or Medium)
+        smallLayout?.stopTrackingView()
+        mediumLayout?.stopTrackingView()
     }
     
     @IBAction func requestButtonTouchUpInside(_ sender: Any)
@@ -60,8 +63,8 @@ extension InFeedSampleSwiftViewController : UITableViewDelegate
 {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        //You can add your own logic to here...
-        print("Cell pressed")
+        // You can add your own logic to here...
+        print("Cell selected")
     }
 }
 
@@ -69,6 +72,7 @@ extension InFeedSampleSwiftViewController : UITableViewDataSource
 {
     func numberOfSections(in tableView: UITableView) -> Int
     {
+        // You can add the number of sections that your app requires in here...
         return 1
     }
     

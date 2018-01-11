@@ -59,15 +59,6 @@ class InFeedSampleSwiftViewController: UIViewController {
     }
 }
 
-extension InFeedSampleSwiftViewController : UITableViewDelegate
-{
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
-    {
-        // You can add your own logic to here...
-        print("Cell selected")
-    }
-}
-
 extension InFeedSampleSwiftViewController : UITableViewDataSource
 {
     func numberOfSections(in tableView: UITableView) -> Int
@@ -97,18 +88,18 @@ extension InFeedSampleSwiftViewController : UITableViewDataSource
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         if (dataSource[indexPath.row] is PNSmallLayout) {
-            let smallAdCell = tableView.dequeueReusableCell(withIdentifier: "SmallLayoutSwiftCell", for: indexPath) as! SmallLayoutSwiftCell
+            let smallLayoutCell = tableView.dequeueReusableCell(withIdentifier: "SmallLayoutSwiftCell", for: indexPath) as! SmallLayoutSwiftCell
             let layoutView = smallLayout?.viewController.view
-            smallAdCell.smallAdContainer.addSubview(layoutView!)
+            smallLayoutCell.smallAdContainer.addSubview(layoutView!)
             smallLayout?.startTrackingView()
-            return smallAdCell
+            return smallLayoutCell
             
         } else if (dataSource[indexPath.row] is PNMediumLayout) {
-            let mediumAdCell = tableView.dequeueReusableCell(withIdentifier: "MediumLayoutSwiftCell", for: indexPath) as! MediumLayoutSwiftCell
+            let mediumLayoutCell = tableView.dequeueReusableCell(withIdentifier: "MediumLayoutSwiftCell", for: indexPath) as! MediumLayoutSwiftCell
             let layoutView = mediumLayout?.viewController.view
-            mediumAdCell.mediumAdContainer.addSubview(layoutView!)
+            mediumLayoutCell.mediumAdContainer.addSubview(layoutView!)
             mediumLayout?.startTrackingView()
-            return mediumAdCell;
+            return mediumLayoutCell;
         }
             // You can add your own UITableViewCell implementations from here...
         else {
@@ -123,8 +114,8 @@ extension InFeedSampleSwiftViewController : PNLayoutLoadDelegate
     func layoutDidFinishLoading(_ layout: PNLayout!)
     {
         print("Layout loaded")
-        // You can insert the Layout at any index... For example we added into the 7th index.
         layout.trackDelegate = self
+        // You can insert the Layout at any index... For example we added into the 7th index.
         dataSource.insert(layout, at: 7)
         tableView.reloadData()
         loadingIndicator.stopAnimating()
